@@ -517,6 +517,11 @@ section, .edu-band { position:relative; z-index:2; }
 .cert-card:hover { border-color:rgba(0,255,136,.22); }
 .cert-card:hover::before { transform:scaleY(1); }
 .cert-icon { font-size:1.4rem; margin-bottom:.7rem; }
+.cert-icon img{
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
 .cert-name {
   font-family:'Syne',sans-serif; font-size:.92rem; font-weight:600;
   margin-bottom:.25rem; line-height:1.35;
@@ -690,7 +695,7 @@ footer {
   </div>
   <div class="hero-stats">
     <div class="stat-item">
-      <div class="stat-n">12+</div>
+      <div class="stat-n">15+</div>
       <div class="stat-l">Projects Built</div>
     </div>
     <div class="stat-item">
@@ -800,7 +805,7 @@ footer {
         </div>
         <div class="proj-foot">
           <div class="proj-date">May 2025</div>
-          <a href="https://github.com/S-Areeb-Ashraf/AI-Fake-Job-Detector" target="_blank" rel="noopener" class="proj-link">GitHub ↗</a>
+          <a href="https://github.com/S-Areeb-Ashraf/Fake-Job-Detector-Using-Machine-Learning" target="_blank" rel="noopener" class="proj-link">GitHub ↗</a>
         </div>
       </div>
 
@@ -814,7 +819,7 @@ footer {
         </div>
         <div class="proj-foot">
           <div class="proj-date">Sep 2025</div>
-          <a href="https://github.com/S-Areeb-Ashraf/Adversarial-Robustness-MNIST" target="_blank" rel="noopener" class="proj-link">GitHub ↗</a>
+          <a href="https://github.com/S-Areeb-Ashraf/Adversarial-Robustness-Analysis-on-MNIST-Using-CNN" target="_blank" rel="noopener" class="proj-link">GitHub ↗</a>
         </div>
       </div>
 
@@ -828,7 +833,7 @@ footer {
         </div>
         <div class="proj-foot">
           <div class="proj-date">Jun 2025</div>
-          <a href="https://github.com/S-Areeb-Ashraf/Edge-Offloading-ML" target="_blank" rel="noopener" class="proj-link">GitHub ↗</a>
+          <a href="https://github.com/S-Areeb-Ashraf/Edge-Offloading-Decision-System-Using-Machine-Learning" target="_blank" rel="noopener" class="proj-link">GitHub ↗</a>
         </div>
       </div>
 
@@ -842,7 +847,7 @@ footer {
         </div>
         <div class="proj-foot">
           <div class="proj-date">Nov 2024</div>
-          <a href="https://github.com/S-Areeb-Ashraf/Real-Estate-Management" target="_blank" rel="noopener" class="proj-link">GitHub ↗</a>
+          <a href="https://github.com/S-Areeb-Ashraf/Real-Estate-Management-System-with-Real-Time-Chat" target="_blank" rel="noopener" class="proj-link">GitHub ↗</a>
         </div>
       </div>
 
@@ -918,6 +923,15 @@ footer {
         <div class="cert-issuer">DataCamp</div>
         <div class="cert-yr">2025</div>
       </div>
+      <!--  -->
+      <div class="cert-card">
+        <div class="cert-icon">☁️</div>
+        <img src="assets/microsoft.svg" alt="Microsoft">
+        <div class="cert-name">Microsoft Certified: Azure AI Fundamentals</div>
+        <div class="cert-issuer">Microsoft</div>
+        <div class="cert-yr">2025</div>
+      </div>
+        <!--  -->
       <div class="cert-card">
         <div class="cert-icon">🤖</div>
         <div class="cert-name">Multi-AI Agent Systems with CrewAI</div>
@@ -1065,7 +1079,7 @@ function lines(){
 })();
 
 /* ---- TYPEWRITER ---- */
-const words=['ML Engineer','Backend Developer','Full-Stack Builder','AI Systems Developer','Problem Solver'];
+const words=['Agentic AI Engineer','AI - ML Engineer','Backend Developer','Full-Stack Developer','AI Systems Developer','Problem Solver'];
 let wi=0,ci=0,del=false;
 const tw=document.getElementById('tw');
 function type(){
