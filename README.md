@@ -21,7 +21,7 @@ A modern, full-featured portfolio website showcasing my work in machine learning
 
 ## 🌐 Live Demo
 
-Visit the portfolio: [Live Portfolio](https://github.com/S-Areeb-Ashraf/Areeb-s-Portfolio)
+Visit the portfolio: [Live Portfolio](https://areebashraf.vercel.app/)
 
 ---
 
